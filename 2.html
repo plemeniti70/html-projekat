@@ -10,45 +10,186 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
-    <body>
-        <nav class="navbar bg-primary navbar-expand-md navbar-light fixed-top">
-            <a class="navbar-brand" href="#"><img src="ja3.jpg" style="height:40px;"></a>
+    <style>
+
+    </style>
+</head>
+
+<body>
+
+    <!-- POCETAK NAVIGATION BARA -->
+
+    <nav class="navbar bg-dark text-white navbar-expand-md navbar-light fixed-top">
+        <a class="navbar-brand" href="#"><img src="ja3.jpg" style="height:40px;"></a>
 
 
-            <!-- za male ekrane se automatski kreira kolapsirajuci navbar -->
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapseid">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+        <!-- za male ekrane se automatski kreira kolapsirajuci navbar -->
+        <button class="navbar-toggler text-white" type="button" data-toggle="collapse" data-target="#collapseid"></button>
+        <span class="navbar-toggler-icon"></span>
 
-            <div class="collapse navbar-collapse" id="collapseid">
-                <h3>Горан Малићанин</h3>
 
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">ПОЧЕТНА</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="1.html">О мени</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="2.html">контакт</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="3.html">досадашњи појекти</a>
-                    </li>
-                </ul>
+        <div class="collapse navbar-collapse text-white " id="collapseid">
+            <h3>Горан Малићанин</h3>
+
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="index.html">ПОЧЕТНА</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="1.html">О MЕНИ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white " href="2.html">КОНТАКТ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="3.html">ДОСАДАШЊИ ПРОЈЕКТИ</a>
+                </li>
+            </ul>
+
+        </div>
+        <a class="navbar-brand" href="english2.html"><img src="union.png" style="height:40px;"></a>
+    </nav>
+
+    <!-- KRAJ NAVIGATION BARA -->
+
+    <!-- POCETAK HOME -->
+
+
+
+
+    <!-- pocev od sm rezolucije, naredne slike se nece videti -->
+    <div class="container-fluid bg-dark text-white " style="padding-top: 100px; text-align: center; ">УКОЛИКО ЖЕЛИТЕ ДА ЗАПОЧНЕМО УСПЕШНУ САРАДЊУ МОЛИМ ВАС ДА УНЕСИТЕ ПОДАТКЕ И ОСТАВИТЕ ПОРУКУ</div>
+
+    <div class="container-fluid bg-dark text-white " style="padding-top: 60px; ">
+        <form>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="inputime">ИМЕ</label>
+                    <input type="email" class="form-control" id="inputEmail4" placeholder="ИМЕ">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="inputprezime">ПРЕЗИМЕ</label>
+                    <input type="password" class="form-control" id="inputPassword4" placeholder="ПРЕЗИМЕ">
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="inputEmail4">Email</label>
+                    <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                </div>
+
+
+
+                <div class="form-group col-md-6">
+                    <label for="inputAddress">КОМПАНИЈА</label>
+                    <input type="text" class="form-control" id="inputAddress" placeholder="КОМПАНИЈА">
+                </div>
+            </div>
+            <div class="form-row">
+
+                <label for="inputporuka">ПОРУКА</label>
+                <input type="text" class="form-control" id="ПОРУКА" placeholder="ПОРУКА">
 
             </div>
-        </nav>
-
-
-        <h2>контакт</h2>
 
 
 
 
+        </form>
+
+    </div>
+    <div class="form-row  bg-dark container-fluid" style="padding-top: 10px">
+        <!--Dugme kojim se mogu obrisati trenutno uneti podaci-->
+        <input value="поништи" type="reset" class="btn btn-primary">
+
+        <!--Dugme koje se koristi da se podaci posalju na obradu-->
+        <input value="пошаљи" type="submit" class="btn btn-primary" style="margin-left:10px">
+    </div>
+    <div class='container-fluid bg-dark text-white ' style="padding-top: 110px; text-align: center; ">ИЛИ ПОШАЉИТЕ email </div>
+    <div class='container-fluid bg-dark text-warning ' style="padding-top: 110px; text-align: center; ">plemeniti70@gmail.com</div>
+
+
+
+    <footer class="page-footer font-small footer-color bg-dark">
+
+        <!-- Footer Links -->
+        <div class="container">
+
+            <!-- Grid row-->
+            <div class="row text-center d-flex justify-content-center pt-5 mb-3 ">
+
+                <!--TODO make it a list-->
+
+                <div class="col-md-2 mb-3">
+                    <h6 class="text-uppercase font-weight-bold ">
+                        <a href="index.html">ПОЧЕТНА</a>
+                    </h6>
+                </div>
+
+                <div class="col-md-2 mb-3">
+                    <h6 class="text-uppercase font-weight-bold">
+                        <a href="1.html">О МЕНИ</a>
+                    </h6>
+                </div>
+
+                <div class="col-md-2 mb-3">
+                    <h6 class="text-uppercase font-weight-bold">
+                        <a href="2.html">КОНТАКТ</a>
+                    </h6>
+                </div>
+
+                <div class="col-md-2 mb-3">
+                    <h6 class="text-uppercase font-weight-bold">
+                        <a href="3.html">ДОСАДАШЊИ ПРОЈЕКТИ</a>
+                    </h6>
+                </div>
+
+                <div class="col-md-2 mb-3">
+                    <h6 class="text-uppercase font-weight-bold">
+                        <a href="english2.html">ENGLISH</a>
+                    </h6>
+                </div>
 
 
 
 
-    </body>
+
+
+            </div>
+            <!-- Grid row-->
+            <!-- <hr class="rgba-white-light" style="margin: 0 15%;"> -->
+            <hr class="rgba-white-light" style="" width="100%">
+
+            <!-- Grid row-->
+            <div class="row d-flex text-center justify-content-center mb-md-0 mb-4">
+
+                <!-- Grid column -->
+                <div class="col-md-8 col-12 mt-5 text-white">
+                    <p style="line-height: 1.7rem">
+                        ИТ ОБУКА
+                    </p>
+                </div>
+                <!-- Grid column -->
+
+            </div>
+            <!-- Grid row-->
+            <hr class="clearfix d-md-none rgba-white-light" style="margin: 10% 15% 5%;">
+
+
+
+
+        </div>
+        <!-- Footer Links -->
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© 2019:
+            <a href="http://www.matf.bg.ac.rs/"> Математички факултет Универзиета у Београду</a>
+        </div>
+        <!-- Copyright -->
+
+    </footer>
+
+
+</body>
+
+</html>
